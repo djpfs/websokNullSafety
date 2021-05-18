@@ -5,14 +5,35 @@ to avoid a few boilerplate and make your code look cleaner.
 
 Supports IO and HTML websockets.
 
-## Getting Started
+Original project [Websok](https://github.com/ConsoleTVs/Websok)
+I only updated some files for null safety
+
+# How to use
+
+## Pubspec.yaml
+
+```yaml
+publish_to: 'none'
+
+adonis_websok_null_safety:
+  git:
+    url: https://github.com/djpfs/AdonisWebsokNullSafety.git
+```
+
+## Import
+
+```dart
+import 'package:websokNullSafety/io.dart';
+```
+
+# Getting Started
 
 ```dart
 /// For HTML:
 /// import 'package:websok/html.dart';
 ///
 /// For IO (Flutter, Dart, etc.)
-import 'package:websok/io.dart';
+import 'package:websokNullSafety/io.dart';
 
 /// Testing library.
 import 'package:test/test.dart';
